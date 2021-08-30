@@ -1,10 +1,11 @@
 import './App.css';
-import Field from './components/TodoField'
+import Todo from './components/Todo'
+import React from 'react'
 
 function App() {
   return (
     <div className="container">
-      <Field />
+      <Todo />
     </div>
   );
 }

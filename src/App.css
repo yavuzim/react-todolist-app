@@ -2,7 +2,7 @@
 *{
     list-style: none;
     text-decoration: none;    
-    font-family: Comic Sans MS, Comic Sans, cursive
+    font-family:Comic Sans MS, Comic Sans, cursive
 }
 body {
     background-color: rgb(238, 238, 231);
@@ -96,15 +96,21 @@ body {
 .list-field{
     height: auto;
 }
-.list{
-    padding: 0;
+.list{    
+    padding: 7px;
 }
-.todo{
-    border-bottom: 1px solid;
+.todos{
     display: flex;
     justify-content: space-between;
-    font-size: 20px; font-weight: 100
+    font-size: 20px; 
+    font-weight: 100;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 6px;
 }
-.todo>span>i:hover{
+.todos>span>i{
+    font-size: 15px;     
+}
+.todos>span>i:hover{
     cursor: pointer;
 }
