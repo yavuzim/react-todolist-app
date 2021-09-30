@@ -14,3 +14,5 @@ $ npm install
 $ npm start
 
 ```
+
+<img src="./template/template.png">
